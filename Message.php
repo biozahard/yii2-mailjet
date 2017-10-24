@@ -159,6 +159,8 @@ class Message extends BaseMessage {
     */
     public function setTextBody($text) {
         $this->_textBody = $text;
+        //adding HTML body by default - becouse MailJet service not support only text messages
+        if(empty($this-_htmlBody)) $this-_htmlBody = $text;
         return $this;
     }
 
