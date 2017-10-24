@@ -7,11 +7,11 @@ mailjet.com
 ## Install
 
 ```
-composer require weluse/yii2-mailjet
+composer require biozahard/yii2-mailjet
 ```
 or add it to your composer.json in the require section
 ```
-"weluse/yii2-mailjet": "*",
+"biozahard/yii2-mailjet": "*",
 ```
 
 ## Setup
